@@ -133,6 +133,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3419947}
   - component: {fileID: 3419946}
+  - component: {fileID: 3419948}
   m_Layer: 0
   m_Name: parallax4
   m_TagString: Untagged
@@ -199,7 +200,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3419945}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: -0.136, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1183669856}
@@ -207,6 +208,19 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3419948
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3419945}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 70c5c87e95fb89244a5de4d0f612fa61, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  EfectoParallax: 0.8
 --- !u!1 &113861520
 GameObject:
   m_ObjectHideFlags: 0
@@ -284,7 +298,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 113861520}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: -10}
+  m_LocalPosition: {x: -0.17, y: 0, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -546,6 +560,7 @@ GameObject:
   m_Component:
   - component: {fileID: 458737149}
   - component: {fileID: 458737148}
+  - component: {fileID: 458737150}
   m_Layer: 0
   m_Name: parallax0
   m_TagString: Untagged
@@ -620,6 +635,19 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &458737150
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 458737147}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 70c5c87e95fb89244a5de4d0f612fa61, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  EfectoParallax: 0
 --- !u!1 &554443786
 GameObject:
   m_ObjectHideFlags: 0
@@ -630,6 +658,7 @@ GameObject:
   m_Component:
   - component: {fileID: 554443788}
   - component: {fileID: 554443787}
+  - component: {fileID: 554443789}
   m_Layer: 0
   m_Name: parallax2
   m_TagString: Untagged
@@ -696,7 +725,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 554443786}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: -0.068, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 307114461}
@@ -704,6 +733,19 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &554443789
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 554443786}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 70c5c87e95fb89244a5de4d0f612fa61, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  EfectoParallax: 0.4
 --- !u!1 &567029964
 GameObject:
   m_ObjectHideFlags: 0
@@ -960,6 +1002,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1184382528}
   - component: {fileID: 1184382527}
+  - component: {fileID: 1184382529}
   m_Layer: 0
   m_Name: parallax3
   m_TagString: Untagged
@@ -1026,7 +1069,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1184382526}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: -0.102000006, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1461202451}
@@ -1034,6 +1077,19 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1184382529
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1184382526}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 70c5c87e95fb89244a5de4d0f612fa61, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  EfectoParallax: 0.6
 --- !u!1 &1255326963
 GameObject:
   m_ObjectHideFlags: 0
@@ -1208,6 +1264,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1529463171}
   - component: {fileID: 1529463170}
+  - component: {fileID: 1529463172}
   m_Layer: 0
   m_Name: parallax1
   m_TagString: Untagged
@@ -1274,7 +1331,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1529463169}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: -0.034, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 567029966}
@@ -1282,6 +1339,19 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1529463172
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1529463169}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 70c5c87e95fb89244a5de4d0f612fa61, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  EfectoParallax: 0.2
 --- !u!1 &1640547951
 GameObject:
   m_ObjectHideFlags: 0
@@ -1374,6 +1444,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1764272264}
   - component: {fileID: 1764272263}
+  - component: {fileID: 1764272265}
   m_Layer: 0
   m_Name: fondo
   m_TagString: Untagged
@@ -1440,7 +1511,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1764272262}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: -0.153, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1933602454}
@@ -1448,6 +1519,19 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1764272265
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1764272262}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 70c5c87e95fb89244a5de4d0f612fa61, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  EfectoParallax: 0.9
 --- !u!1 &1931329926
 GameObject:
   m_ObjectHideFlags: 0
