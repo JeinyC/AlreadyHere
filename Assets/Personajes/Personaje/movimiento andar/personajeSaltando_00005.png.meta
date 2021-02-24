@@ -1,5 +1,9 @@
 fileFormatVersion: 2
+<<<<<<< HEAD
 guid: bc2ca6473bf57407b928b528236d9b46
+=======
+guid: 8a90e2f76ca4c3a40b029f64219ec4de
+>>>>>>> parallax
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}

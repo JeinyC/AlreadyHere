@@ -1,5 +1,9 @@
 fileFormatVersion: 2
+<<<<<<< HEAD
 guid: 09744b082af2c440ca5961a1d3438112
+=======
+guid: 23c1bd7f4b8ca8b40b1e27c759ccc568
+>>>>>>> parallax
 folderAsset: yes
 DefaultImporter:
   externalObjects: {}
