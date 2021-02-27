@@ -1,55 +1,55 @@
 fileFormatVersion: 2
-guid: 112e81c51162a4746b339cde3aca410c
+guid: 79179b6e07800a142a4d19eef06867ef
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -7793532932680617809
-    second: AlienPeludoWalk_0
+      213: 310293078250425396
+    second: personajeSaltando_0
   - first:
-      213: -8825522544457211087
-    second: AlienPeludoWalk_1
+      213: -3837685875160202607
+    second: personajeSaltando_1
   - first:
-      213: -9004292979268143209
-    second: AlienPeludoWalk_2
+      213: 2876102242445848420
+    second: personajeSaltando_2
   - first:
-      213: -8820328614758832989
-    second: AlienPeludoWalk_3
+      213: -6782188542048884073
+    second: personajeSaltando_3
   - first:
-      213: -6516634055420982419
-    second: AlienPeludoWalk_4
+      213: -2764155951811361696
+    second: personajeSaltando_4
   - first:
-      213: 3908390275785052973
-    second: AlienPeludoWalk_5
+      213: -103525929191462028
+    second: personajeSaltando_5
   - first:
-      213: 6975863588269394416
-    second: AlienPeludoWalk_6
+      213: -693774767259368035
+    second: personajeSaltando_6
   - first:
-      213: 529473989921152214
-    second: AlienPeludoWalk_7
+      213: -4952961276617997028
+    second: personajeSaltando_7
   - first:
-      213: 1396878751965655198
-    second: AlienPeludoWalk_8
+      213: 7965951492816979774
+    second: personajeSaltando_8
   - first:
-      213: 2384160731046175773
-    second: AlienPeludoWalk_9
+      213: -3225823745754131492
+    second: personajeSaltando_9
   - first:
-      213: -8711262471334202695
-    second: AlienPeludoWalk_10
+      213: -2744268918800388498
+    second: personajeSaltando_10
   - first:
-      213: 1548350190437890371
-    second: AlienPeludoWalk_11
+      213: 5051500835025243332
+    second: personajeSaltando_11
   - first:
-      213: -7846503442596765886
-    second: AlienPeludoWalk_12
+      213: 6037787059168097416
+    second: personajeSaltando_12
   - first:
-      213: 6368964194163507414
-    second: AlienPeludoWalk_13
+      213: -4526934380885646810
+    second: personajeSaltando_13
   - first:
-      213: 3526490469587298754
-    second: AlienPeludoWalk_14
+      213: 5523591052740848346
+    second: personajeSaltando_14
   - first:
-      213: 2169978467080978683
-    second: AlienPeludoWalk_15
+      213: 126112398700658687
+    second: personajeSaltando_15
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -151,13 +151,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: AlienPeludoWalk_0
+      name: personajeSaltando_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 456
-        width: 152
-        height: 152
+        x: 30
+        y: 466
+        width: 94
+        height: 104
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -165,20 +165,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fa07342f61fc7d390800000000000000
-      internalID: -7793532932680617809
+      spriteID: 43c016129e16e4400800000000000000
+      internalID: 310293078250425396
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: AlienPeludoWalk_1
+      name: personajeSaltando_1
       rect:
         serializedVersion: 2
-        x: 152
-        y: 456
-        width: 152
-        height: 152
+        x: 182
+        y: 480
+        width: 94
+        height: 105
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -186,20 +186,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1332d646102758580800000000000000
-      internalID: -8825522544457211087
+      spriteID: 192ca8b870dcdbac0800000000000000
+      internalID: -3837685875160202607
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: AlienPeludoWalk_2
+      name: personajeSaltando_2
       rect:
         serializedVersion: 2
-        x: 304
-        y: 456
-        width: 152
-        height: 152
+        x: 334
+        y: 494
+        width: 94
+        height: 106
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -207,20 +207,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 797bd2dfd335a0380800000000000000
-      internalID: -9004292979268143209
+      spriteID: 46f60b250c7f9e720800000000000000
+      internalID: 2876102242445848420
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: AlienPeludoWalk_3
+      name: personajeSaltando_3
       rect:
         serializedVersion: 2
-        x: 456
-        y: 456
-        width: 152
-        height: 152
+        x: 486
+        y: 480
+        width: 94
+        height: 107
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -228,20 +228,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3a426136bd5e79580800000000000000
-      internalID: -8820328614758832989
+      spriteID: 79aa37f5473d0e1a0800000000000000
+      internalID: -6782188542048884073
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: AlienPeludoWalk_4
+      name: personajeSaltando_4
       rect:
         serializedVersion: 2
-        x: 0
-        y: 304
-        width: 152
-        height: 152
+        x: 29
+        y: 314
+        width: 95
+        height: 107
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -249,20 +249,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d6b4b6b6ad34095a0800000000000000
-      internalID: -6516634055420982419
+      spriteID: 06480849eceb3a9d0800000000000000
+      internalID: -2764155951811361696
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: AlienPeludoWalk_5
+      name: personajeSaltando_5
       rect:
         serializedVersion: 2
-        x: 152
-        y: 304
-        width: 152
-        height: 152
+        x: 181
+        y: 328
+        width: 95
+        height: 108
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -270,20 +270,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d2352cf8f346d3630800000000000000
-      internalID: 3908390275785052973
+      spriteID: 47b208547b3309ef0800000000000000
+      internalID: -103525929191462028
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: AlienPeludoWalk_6
+      name: personajeSaltando_6
       rect:
         serializedVersion: 2
-        x: 304
-        y: 304
-        width: 152
-        height: 152
+        x: 333
+        y: 342
+        width: 95
+        height: 108
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -291,20 +291,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0f9016c49fe3fc060800000000000000
-      internalID: 6975863588269394416
+      spriteID: d95406366873f56f0800000000000000
+      internalID: -693774767259368035
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: AlienPeludoWalk_7
+      name: personajeSaltando_7
       rect:
         serializedVersion: 2
-        x: 456
-        y: 304
-        width: 152
-        height: 152
+        x: 486
+        y: 328
+        width: 94
+        height: 106
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -312,20 +312,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6dc1f0fd9c1195700800000000000000
-      internalID: 529473989921152214
+      spriteID: c154be8f5fb834bb0800000000000000
+      internalID: -4952961276617997028
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: AlienPeludoWalk_8
+      name: personajeSaltando_8
       rect:
         serializedVersion: 2
-        x: 0
-        y: 152
-        width: 152
-        height: 152
+        x: 30
+        y: 162
+        width: 94
+        height: 104
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -333,20 +333,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e90343de2d5b26310800000000000000
-      internalID: 1396878751965655198
+      spriteID: e3749536daebc8e60800000000000000
+      internalID: 7965951492816979774
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: AlienPeludoWalk_9
+      name: personajeSaltando_9
       rect:
         serializedVersion: 2
-        x: 152
-        y: 152
-        width: 152
-        height: 152
+        x: 182
+        y: 176
+        width: 94
+        height: 104
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -354,20 +354,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d1461759d8d361120800000000000000
-      internalID: 2384160731046175773
+      spriteID: cd31e46f4629b33d0800000000000000
+      internalID: -3225823745754131492
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: AlienPeludoWalk_10
+      name: personajeSaltando_10
       rect:
         serializedVersion: 2
-        x: 304
-        y: 152
-        width: 152
-        height: 152
+        x: 334
+        y: 190
+        width: 94
+        height: 105
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -375,20 +375,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9b2fee2cfe06b1780800000000000000
-      internalID: -8711262471334202695
+      spriteID: e6ee1c645f56ae9d0800000000000000
+      internalID: -2744268918800388498
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: AlienPeludoWalk_11
+      name: personajeSaltando_11
       rect:
         serializedVersion: 2
-        x: 456
-        y: 152
-        width: 152
-        height: 152
+        x: 486
+        y: 176
+        width: 94
+        height: 104
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -396,20 +396,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 34975f07b48dc7510800000000000000
-      internalID: 1548350190437890371
+      spriteID: 4ccc446de398a1640800000000000000
+      internalID: 5051500835025243332
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: AlienPeludoWalk_12
+      name: personajeSaltando_12
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 152
-        height: 152
+        x: 30
+        y: 10
+        width: 94
+        height: 104
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -417,20 +417,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 24fd32701be9b1390800000000000000
-      internalID: -7846503442596765886
+      spriteID: 8843a2b37578ac350800000000000000
+      internalID: 6037787059168097416
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: AlienPeludoWalk_13
+      name: personajeSaltando_13
       rect:
         serializedVersion: 2
-        x: 152
-        y: 0
-        width: 152
-        height: 152
+        x: 182
+        y: 24
+        width: 94
+        height: 104
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -438,20 +438,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6d04c4cb03b136850800000000000000
-      internalID: 6368964194163507414
+      spriteID: 622eec15a291d21c0800000000000000
+      internalID: -4526934380885646810
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: AlienPeludoWalk_14
+      name: personajeSaltando_14
       rect:
         serializedVersion: 2
-        x: 304
-        y: 0
-        width: 152
-        height: 152
+        x: 334
+        y: 38
+        width: 94
+        height: 105
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -459,20 +459,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2c92d8fd56c90f030800000000000000
-      internalID: 3526490469587298754
+      spriteID: adae4271cccb7ac40800000000000000
+      internalID: 5523591052740848346
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: AlienPeludoWalk_15
+      name: personajeSaltando_15
       rect:
         serializedVersion: 2
-        x: 456
-        y: 0
-        width: 152
-        height: 152
+        x: 486
+        y: 24
+        width: 94
+        height: 104
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -480,8 +480,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bf0cb943bef4d1e10800000000000000
-      internalID: 2169978467080978683
+      spriteID: fff3356fe8a00c100800000000000000
+      internalID: 126112398700658687
       vertices: []
       indices: 
       edges: []

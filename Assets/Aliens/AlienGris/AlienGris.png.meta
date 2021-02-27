@@ -1,55 +1,55 @@
 fileFormatVersion: 2
-guid: 112e81c51162a4746b339cde3aca410c
+guid: c319796a8d0acb84fb37f879ab7f6c5a
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -7793532932680617809
-    second: AlienPeludoWalk_0
+      213: 5946916567878256365
+    second: AlienGris_0
   - first:
-      213: -8825522544457211087
-    second: AlienPeludoWalk_1
+      213: -2197570055919267548
+    second: AlienGris_1
   - first:
-      213: -9004292979268143209
-    second: AlienPeludoWalk_2
+      213: -6331768624381982901
+    second: AlienGris_2
   - first:
-      213: -8820328614758832989
-    second: AlienPeludoWalk_3
+      213: 6892004033545178631
+    second: AlienGris_3
   - first:
-      213: -6516634055420982419
-    second: AlienPeludoWalk_4
+      213: -9035663041769805181
+    second: AlienGris_4
   - first:
-      213: 3908390275785052973
-    second: AlienPeludoWalk_5
+      213: 7226202518306710844
+    second: AlienGris_5
   - first:
-      213: 6975863588269394416
-    second: AlienPeludoWalk_6
+      213: 640181728234753837
+    second: AlienGris_6
   - first:
-      213: 529473989921152214
-    second: AlienPeludoWalk_7
+      213: 752895828930701662
+    second: AlienGris_7
   - first:
-      213: 1396878751965655198
-    second: AlienPeludoWalk_8
+      213: -8241694219527155692
+    second: AlienGris_8
   - first:
-      213: 2384160731046175773
-    second: AlienPeludoWalk_9
+      213: 4536523708050366343
+    second: AlienGris_9
   - first:
-      213: -8711262471334202695
-    second: AlienPeludoWalk_10
+      213: 8182348537013609741
+    second: AlienGris_10
   - first:
-      213: 1548350190437890371
-    second: AlienPeludoWalk_11
+      213: -8678599638499403124
+    second: AlienGris_11
   - first:
-      213: -7846503442596765886
-    second: AlienPeludoWalk_12
+      213: 2083584637561375788
+    second: AlienGris_12
   - first:
-      213: 6368964194163507414
-    second: AlienPeludoWalk_13
+      213: -2887217575776270723
+    second: AlienGris_13
   - first:
-      213: 3526490469587298754
-    second: AlienPeludoWalk_14
+      213: 7556484274034127953
+    second: AlienGris_14
   - first:
-      213: 2169978467080978683
-    second: AlienPeludoWalk_15
+      213: 4702959298441580262
+    second: AlienGris_15
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -151,7 +151,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: AlienPeludoWalk_0
+      name: AlienGris_0
       rect:
         serializedVersion: 2
         x: 0
@@ -165,14 +165,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fa07342f61fc7d390800000000000000
-      internalID: -7793532932680617809
+      spriteID: de6c4414c11b78250800000000000000
+      internalID: 5946916567878256365
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: AlienPeludoWalk_1
+      name: AlienGris_1
       rect:
         serializedVersion: 2
         x: 152
@@ -186,14 +186,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1332d646102758580800000000000000
-      internalID: -8825522544457211087
+      spriteID: 42195e76da9a081e0800000000000000
+      internalID: -2197570055919267548
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: AlienPeludoWalk_2
+      name: AlienGris_2
       rect:
         serializedVersion: 2
         x: 304
@@ -207,14 +207,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 797bd2dfd335a0380800000000000000
-      internalID: -9004292979268143209
+      spriteID: b478fb7bbf90128a0800000000000000
+      internalID: -6331768624381982901
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: AlienPeludoWalk_3
+      name: AlienGris_3
       rect:
         serializedVersion: 2
         x: 456
@@ -228,14 +228,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3a426136bd5e79580800000000000000
-      internalID: -8820328614758832989
+      spriteID: 70e0502372155af50800000000000000
+      internalID: 6892004033545178631
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: AlienPeludoWalk_4
+      name: AlienGris_4
       rect:
         serializedVersion: 2
         x: 0
@@ -249,14 +249,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d6b4b6b6ad34095a0800000000000000
-      internalID: -6516634055420982419
+      spriteID: 38a6f252650ea9280800000000000000
+      internalID: -9035663041769805181
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: AlienPeludoWalk_5
+      name: AlienGris_5
       rect:
         serializedVersion: 2
         x: 152
@@ -270,14 +270,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d2352cf8f346d3630800000000000000
-      internalID: 3908390275785052973
+      spriteID: c3564b287e0a84460800000000000000
+      internalID: 7226202518306710844
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: AlienPeludoWalk_6
+      name: AlienGris_6
       rect:
         serializedVersion: 2
         x: 304
@@ -291,14 +291,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0f9016c49fe3fc060800000000000000
-      internalID: 6975863588269394416
+      spriteID: d2fc027d3e162e800800000000000000
+      internalID: 640181728234753837
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: AlienPeludoWalk_7
+      name: AlienGris_7
       rect:
         serializedVersion: 2
         x: 456
@@ -312,14 +312,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6dc1f0fd9c1195700800000000000000
-      internalID: 529473989921152214
+      spriteID: e59a94474c2d27a00800000000000000
+      internalID: 752895828930701662
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: AlienPeludoWalk_8
+      name: AlienGris_8
       rect:
         serializedVersion: 2
         x: 0
@@ -333,14 +333,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e90343de2d5b26310800000000000000
-      internalID: 1396878751965655198
+      spriteID: 41091b116ce9f9d80800000000000000
+      internalID: -8241694219527155692
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: AlienPeludoWalk_9
+      name: AlienGris_9
       rect:
         serializedVersion: 2
         x: 152
@@ -354,14 +354,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d1461759d8d361120800000000000000
-      internalID: 2384160731046175773
+      spriteID: 78fda75e648f4fe30800000000000000
+      internalID: 4536523708050366343
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: AlienPeludoWalk_10
+      name: AlienGris_10
       rect:
         serializedVersion: 2
         x: 304
@@ -375,14 +375,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9b2fee2cfe06b1780800000000000000
-      internalID: -8711262471334202695
+      spriteID: d05222974aa8d8170800000000000000
+      internalID: 8182348537013609741
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: AlienPeludoWalk_11
+      name: AlienGris_11
       rect:
         serializedVersion: 2
         x: 456
@@ -396,14 +396,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 34975f07b48dc7510800000000000000
-      internalID: 1548350190437890371
+      spriteID: c8ad8672c9b6f8780800000000000000
+      internalID: -8678599638499403124
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: AlienPeludoWalk_12
+      name: AlienGris_12
       rect:
         serializedVersion: 2
         x: 0
@@ -417,14 +417,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 24fd32701be9b1390800000000000000
-      internalID: -7846503442596765886
+      spriteID: c2c8e4540316aec10800000000000000
+      internalID: 2083584637561375788
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: AlienPeludoWalk_13
+      name: AlienGris_13
       rect:
         serializedVersion: 2
         x: 152
@@ -438,14 +438,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6d04c4cb03b136850800000000000000
-      internalID: 6368964194163507414
+      spriteID: d76479679ea8ee7d0800000000000000
+      internalID: -2887217575776270723
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: AlienPeludoWalk_14
+      name: AlienGris_14
       rect:
         serializedVersion: 2
         x: 304
@@ -459,14 +459,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2c92d8fd56c90f030800000000000000
-      internalID: 3526490469587298754
+      spriteID: 15431a849660ed860800000000000000
+      internalID: 7556484274034127953
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: AlienPeludoWalk_15
+      name: AlienGris_15
       rect:
         serializedVersion: 2
         x: 456
@@ -480,8 +480,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bf0cb943bef4d1e10800000000000000
-      internalID: 2169978467080978683
+      spriteID: 6ee0bb88094444140800000000000000
+      internalID: 4702959298441580262
       vertices: []
       indices: 
       edges: []

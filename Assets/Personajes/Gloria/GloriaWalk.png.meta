@@ -1,7 +1,55 @@
 fileFormatVersion: 2
 guid: ff635434b64aa104a8c81793af60b426
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: 6076971676888344385
+    second: GloriaWalk_0
+  - first:
+      213: 2655604436934251795
+    second: GloriaWalk_1
+  - first:
+      213: -2480048311772814473
+    second: GloriaWalk_2
+  - first:
+      213: -2927007469353162194
+    second: GloriaWalk_3
+  - first:
+      213: 3049564573899004012
+    second: GloriaWalk_4
+  - first:
+      213: 1269002221378165215
+    second: GloriaWalk_5
+  - first:
+      213: 4774849328614484759
+    second: GloriaWalk_6
+  - first:
+      213: -3551338415393329536
+    second: GloriaWalk_7
+  - first:
+      213: -4412586873683733364
+    second: GloriaWalk_8
+  - first:
+      213: -3025035808878904916
+    second: GloriaWalk_9
+  - first:
+      213: -3749072318367016191
+    second: GloriaWalk_10
+  - first:
+      213: -8005352609457683901
+    second: GloriaWalk_11
+  - first:
+      213: 19209518571063465
+    second: GloriaWalk_12
+  - first:
+      213: 7807195111184442169
+    second: GloriaWalk_13
+  - first:
+      213: 1847688835832134126
+    second: GloriaWalk_14
+  - first:
+      213: -153709589142564862
+    second: GloriaWalk_15
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -41,7 +89,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -75,9 +123,369 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: GloriaWalk_0
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 464
+        width: 96
+        height: 132
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1472a0ffa8db55450800000000000000
+      internalID: 6076971676888344385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GloriaWalk_1
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 464
+        width: 97
+        height: 130
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 315da675a2a9ad420800000000000000
+      internalID: 2655604436934251795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GloriaWalk_2
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 464
+        width: 97
+        height: 129
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77369f64339159dd0800000000000000
+      internalID: -2480048311772814473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GloriaWalk_3
+      rect:
+        serializedVersion: 2
+        x: 487
+        y: 464
+        width: 98
+        height: 130
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2a2a4ee63e2167d0800000000000000
+      internalID: -2927007469353162194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GloriaWalk_4
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 312
+        width: 97
+        height: 132
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c689dda92da325a20800000000000000
+      internalID: 3049564573899004012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GloriaWalk_5
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 312
+        width: 96
+        height: 133
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd95d600cc66c9110800000000000000
+      internalID: 1269002221378165215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GloriaWalk_6
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 312
+        width: 96
+        height: 135
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71b24188a2ca34240800000000000000
+      internalID: 4774849328614484759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GloriaWalk_7
+      rect:
+        serializedVersion: 2
+        x: 484
+        y: 312
+        width: 96
+        height: 133
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08e2849e68c17bec0800000000000000
+      internalID: -3551338415393329536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GloriaWalk_8
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 160
+        width: 96
+        height: 132
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8497850e9753c2c0800000000000000
+      internalID: -4412586873683733364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GloriaWalk_9
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 160
+        width: 97
+        height: 132
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca9bfea85f9e406d0800000000000000
+      internalID: -3025035808878904916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GloriaWalk_10
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 160
+        width: 97
+        height: 132
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10bdb72079e98fbc0800000000000000
+      internalID: -3749072318367016191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GloriaWalk_11
+      rect:
+        serializedVersion: 2
+        x: 487
+        y: 160
+        width: 98
+        height: 132
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3424783473647e090800000000000000
+      internalID: -8005352609457683901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GloriaWalk_12
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 8
+        width: 97
+        height: 132
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a80cb294fe344000800000000000000
+      internalID: 19209518571063465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GloriaWalk_13
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 8
+        width: 96
+        height: 132
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 933a05ed69ab85c60800000000000000
+      internalID: 7807195111184442169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GloriaWalk_14
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 8
+        width: 96
+        height: 132
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee9ba3be43f44a910800000000000000
+      internalID: 1847688835832134126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GloriaWalk_15
+      rect:
+        serializedVersion: 2
+        x: 484
+        y: 8
+        width: 96
+        height: 132
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 200169c61f9edddf0800000000000000
+      internalID: -153709589142564862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
