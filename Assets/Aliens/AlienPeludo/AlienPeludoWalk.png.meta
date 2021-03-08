@@ -1,7 +1,55 @@
 fileFormatVersion: 2
 guid: 112e81c51162a4746b339cde3aca410c
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: -7793532932680617809
+    second: AlienPeludoWalk_0
+  - first:
+      213: -8825522544457211087
+    second: AlienPeludoWalk_1
+  - first:
+      213: -9004292979268143209
+    second: AlienPeludoWalk_2
+  - first:
+      213: -8820328614758832989
+    second: AlienPeludoWalk_3
+  - first:
+      213: -6516634055420982419
+    second: AlienPeludoWalk_4
+  - first:
+      213: 3908390275785052973
+    second: AlienPeludoWalk_5
+  - first:
+      213: 6975863588269394416
+    second: AlienPeludoWalk_6
+  - first:
+      213: 529473989921152214
+    second: AlienPeludoWalk_7
+  - first:
+      213: 1396878751965655198
+    second: AlienPeludoWalk_8
+  - first:
+      213: 2384160731046175773
+    second: AlienPeludoWalk_9
+  - first:
+      213: -8711262471334202695
+    second: AlienPeludoWalk_10
+  - first:
+      213: 1548350190437890371
+    second: AlienPeludoWalk_11
+  - first:
+      213: -7846503442596765886
+    second: AlienPeludoWalk_12
+  - first:
+      213: 6368964194163507414
+    second: AlienPeludoWalk_13
+  - first:
+      213: 3526490469587298754
+    second: AlienPeludoWalk_14
+  - first:
+      213: 2169978467080978683
+    second: AlienPeludoWalk_15
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -41,7 +89,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -75,9 +123,369 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: AlienPeludoWalk_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 456
+        width: 152
+        height: 152
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa07342f61fc7d390800000000000000
+      internalID: -7793532932680617809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AlienPeludoWalk_1
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 456
+        width: 152
+        height: 152
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1332d646102758580800000000000000
+      internalID: -8825522544457211087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AlienPeludoWalk_2
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 456
+        width: 152
+        height: 152
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 797bd2dfd335a0380800000000000000
+      internalID: -9004292979268143209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AlienPeludoWalk_3
+      rect:
+        serializedVersion: 2
+        x: 456
+        y: 456
+        width: 152
+        height: 152
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a426136bd5e79580800000000000000
+      internalID: -8820328614758832989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AlienPeludoWalk_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 304
+        width: 152
+        height: 152
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6b4b6b6ad34095a0800000000000000
+      internalID: -6516634055420982419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AlienPeludoWalk_5
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 304
+        width: 152
+        height: 152
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2352cf8f346d3630800000000000000
+      internalID: 3908390275785052973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AlienPeludoWalk_6
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 304
+        width: 152
+        height: 152
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f9016c49fe3fc060800000000000000
+      internalID: 6975863588269394416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AlienPeludoWalk_7
+      rect:
+        serializedVersion: 2
+        x: 456
+        y: 304
+        width: 152
+        height: 152
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6dc1f0fd9c1195700800000000000000
+      internalID: 529473989921152214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AlienPeludoWalk_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 152
+        width: 152
+        height: 152
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e90343de2d5b26310800000000000000
+      internalID: 1396878751965655198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AlienPeludoWalk_9
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 152
+        width: 152
+        height: 152
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1461759d8d361120800000000000000
+      internalID: 2384160731046175773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AlienPeludoWalk_10
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 152
+        width: 152
+        height: 152
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b2fee2cfe06b1780800000000000000
+      internalID: -8711262471334202695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AlienPeludoWalk_11
+      rect:
+        serializedVersion: 2
+        x: 456
+        y: 152
+        width: 152
+        height: 152
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34975f07b48dc7510800000000000000
+      internalID: 1548350190437890371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AlienPeludoWalk_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 152
+        height: 152
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24fd32701be9b1390800000000000000
+      internalID: -7846503442596765886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AlienPeludoWalk_13
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 0
+        width: 152
+        height: 152
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d04c4cb03b136850800000000000000
+      internalID: 6368964194163507414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AlienPeludoWalk_14
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 0
+        width: 152
+        height: 152
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c92d8fd56c90f030800000000000000
+      internalID: 3526490469587298754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AlienPeludoWalk_15
+      rect:
+        serializedVersion: 2
+        x: 456
+        y: 0
+        width: 152
+        height: 152
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf0cb943bef4d1e10800000000000000
+      internalID: 2169978467080978683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
