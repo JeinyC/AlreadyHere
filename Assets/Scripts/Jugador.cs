@@ -9,6 +9,7 @@ public class Jugador : MonoBehaviour
     private Animator animator;
     public float speed = 2f;
     public float maxSpeed = 5f;
+    bool m_isGrounded;
 
 
 
@@ -17,13 +18,14 @@ public class Jugador : MonoBehaviour
     {
         animator = GetComponent<Animator>();
         rigidbody2D = GetComponent<Rigidbody2D>();
+        m_isGrounded=true;
     }
 
 
     //Animación para que cuando deje de saltar siga caminando
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Space))
+        if (Input.GetKeyDown(KeyCode.Space) && m_isGrounded == true)
         {
             animator.SetBool("estaSaltando", true);
             rigidbody2D.AddForce(new Vector2(0, fuerzaSalto));
