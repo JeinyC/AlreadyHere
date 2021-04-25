@@ -9,6 +9,8 @@ public class Jugador : MonoBehaviour
     private Animator animator;
     public float speed = 2f;
     public float maxSpeed = 5f;
+    int saltosHechos;
+    int limiteSaltos=2;
     bool m_isGrounded;
 
 
@@ -19,16 +21,22 @@ public class Jugador : MonoBehaviour
         animator = GetComponent<Animator>();
         rigidbody2D = GetComponent<Rigidbody2D>();
         m_isGrounded=true;
+        saltosHechos=0;
     }
 
 
     //Animación para que cuando deje de saltar siga caminando
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Space) && m_isGrounded == true)
+        if (Input.GetKeyDown(KeyCode.Space))
         {
-            animator.SetBool("estaSaltando", true);
-            rigidbody2D.AddForce(new Vector2(0, fuerzaSalto));
+            if(saltosHechos<limiteSaltos){
+                rigidbody2D.AddForce(new Vector2(0, fuerzaSalto));
+                animator.SetBool("estaSaltando", true);
+                saltosHechos++;
+            }
+            
+            
         }
     }
 
@@ -56,11 +64,13 @@ public class Jugador : MonoBehaviour
     {
         if (collision.gameObject.tag == "Suelo")
         {
+            saltosHechos=0;
             animator.SetBool("estaSaltando", false);
         }
         if (collision.gameObject.tag == "CocheRojo")
         {
-            animator.SetBool("estaCaminando", false);
+            saltosHechos=0;
+            animator.SetBool("estaSaltando", false);
         }
     }
 }
