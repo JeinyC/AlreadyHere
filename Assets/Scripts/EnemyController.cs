@@ -32,6 +32,15 @@ public class EnemyController : MonoBehaviour
         {
             transform.localScale = new Vector3(-1f, 1f, 1f);
         }
+        /*
+        void OnTriggerEnter2D(Collider2D col)
+        {
+            if ()
+            {
+
+            }
+        }
+        */
     }
 
 }
