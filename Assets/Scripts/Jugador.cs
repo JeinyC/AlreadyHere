@@ -5,13 +5,13 @@ using UnityEngine;
 public class Jugador : MonoBehaviour
 {
     public float fuerzaSalto;
-    private Rigidbody2D rigidbody2D;
+    private new Rigidbody2D rigidbody2D;
     private Animator animator;
     public float speed = 2f;
     public float maxSpeed = 5f;
     int saltosHechos;
     int limiteSaltos=2;
-    bool m_isGrounded;
+    //bool m_isGrounded;
 
 
 
@@ -20,7 +20,7 @@ public class Jugador : MonoBehaviour
     {
         animator = GetComponent<Animator>();
         rigidbody2D = GetComponent<Rigidbody2D>();
-        m_isGrounded=true;
+        //m_isGrounded=true;
         saltosHechos=0;
     }
 

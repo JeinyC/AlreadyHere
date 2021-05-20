@@ -6,7 +6,7 @@ public class EnemyController : MonoBehaviour
 {
     public float speed = 1f;
     public float maxSpeed = 1f;
-    private Rigidbody2D rigidbody2D;
+    private new Rigidbody2D rigidbody2D;
     void Start()
     {
         rigidbody2D = GetComponent<Rigidbody2D>();
