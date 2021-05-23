@@ -10,7 +10,9 @@ public class Jugador : MonoBehaviour
     public float speed = 2f;
     public float maxSpeed = 5f;
     int saltosHechos;
-    int limiteSaltos=2;
+    int limiteSaltos = 2;
+    private float posicionAnterior = 0;
+    bool derecha = true;
     //bool m_isGrounded;
 
 
@@ -21,7 +23,7 @@ public class Jugador : MonoBehaviour
         animator = GetComponent<Animator>();
         rigidbody2D = GetComponent<Rigidbody2D>();
         //m_isGrounded=true;
-        saltosHechos=0;
+        posicionAnterior = transform.position.x;
     }
 
 
@@ -30,13 +32,14 @@ public class Jugador : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.Space))
         {
-            if(saltosHechos<limiteSaltos){
+            if (saltosHechos < limiteSaltos)
+            {
                 rigidbody2D.AddForce(new Vector2(0, fuerzaSalto));
                 animator.SetBool("estaSaltando", true);
                 saltosHechos++;
             }
-            
-            
+
+
         }
     }
 
@@ -56,6 +59,36 @@ public class Jugador : MonoBehaviour
             rigidbody2D.velocity = new Vector2(-maxSpeed, rigidbody2D.velocity.y);
         }
 
+
+        //Flip character based on position
+        if (transform.position.x > posicionAnterior)
+        {
+            if (!derecha)
+            {
+                flip();
+            }
+            derecha = true;
+        }
+        else if (transform.position.x < posicionAnterior)
+        {
+            if (derecha)
+            {
+                flip();
+            }
+            derecha = false;
+        }
+        if (Time.frameCount % 5 == 0)
+        {
+            posicionAnterior = transform.position.x;
+        }
+    }
+
+
+    void flip()
+    {
+        Vector3 theScale = transform.localScale;
+        theScale.x *= -1;
+        transform.localScale = theScale;
     }
 
 
@@ -64,12 +97,12 @@ public class Jugador : MonoBehaviour
     {
         if (collision.gameObject.tag == "Suelo")
         {
-            saltosHechos=0;
+            saltosHechos = 0;
             animator.SetBool("estaSaltando", false);
         }
         if (collision.gameObject.tag == "CocheRojo")
         {
-            saltosHechos=0;
+            saltosHechos = 0;
             animator.SetBool("estaSaltando", false);
         }
     }
