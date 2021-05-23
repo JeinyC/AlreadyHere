@@ -200,7 +200,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3419945}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 9.648009, y: 0, z: 0}
+  m_LocalPosition: {x: 19.848011, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1183669856}
@@ -400,6 +400,7 @@ GameObject:
   - component: {fileID: 113861522}
   - component: {fileID: 113861521}
   - component: {fileID: 113861524}
+  - component: {fileID: 113861525}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -466,7 +467,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 113861520}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.94, y: 0, z: -10}
+  m_LocalPosition: {x: 2.55, y: 0, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -568,6 +569,21 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &113861525
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 113861520}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c1a5571c5306e4132ae4e3ed4f3ab6fb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  minCameraPos: {x: 0.94, y: 0}
+  maxCameraPos: {x: 19.26, y: 0}
+  camera: {fileID: 66022037}
 --- !u!1 &129281812
 GameObject:
   m_ObjectHideFlags: 0
@@ -690,7 +706,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 132607360}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 3.806983, y: 0, z: 0}
+  m_LocalPosition: {x: 15.281983, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1.7875, z: 1}
   m_Children:
   - {fileID: 1669875453}
@@ -1324,7 +1340,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 458737147}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 19.2, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 329025041}
@@ -1422,7 +1438,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 554443786}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 14.42401, y: 0, z: 0}
+  m_LocalPosition: {x: 19.524012, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 307114461}
@@ -2358,7 +2374,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1184382526}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 2.435988, y: 0, z: 0}
+  m_LocalPosition: {x: 10.085988, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1461202451}
@@ -2898,7 +2914,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1529463169}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 7.2119894, y: 0, z: 0}
+  m_LocalPosition: {x: 9.761991, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 567029966}
@@ -3648,7 +3664,7 @@ GameObject:
   - component: {fileID: 1762129027}
   m_Layer: 0
   m_Name: Plataforma2
-  m_TagString: Plataforma
+  m_TagString: CocheRojo
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3883,7 +3899,7 @@ GameObject:
   - component: {fileID: 2001819493}
   m_Layer: 0
   m_Name: Plataforma1
-  m_TagString: Plataforma
+  m_TagString: CocheRojo
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
