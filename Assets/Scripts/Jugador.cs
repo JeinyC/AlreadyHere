@@ -13,6 +13,7 @@ public class Jugador : MonoBehaviour
     int limiteSaltos = 2;
     private float posicionAnterior = 0;
     bool derecha = true;
+    public float jumpSpeed = 5;
     //bool m_isGrounded;
 
 
@@ -44,6 +45,7 @@ public class Jugador : MonoBehaviour
     }
 
 
+    //Función para que el personaje camine 
     void FixedUpdate()
     {
         float h = Input.GetAxis("Horizontal");
@@ -60,7 +62,7 @@ public class Jugador : MonoBehaviour
         }
 
 
-        //Flip character based on position
+        //Rotar el personaje dependiendo de su posicion
         if (transform.position.x > posicionAnterior)
         {
             if (!derecha)
@@ -84,6 +86,7 @@ public class Jugador : MonoBehaviour
     }
 
 
+    //Función para que el personaje rote
     void flip()
     {
         Vector3 theScale = transform.localScale;
@@ -105,5 +108,10 @@ public class Jugador : MonoBehaviour
             saltosHechos = 0;
             animator.SetBool("estaSaltando", false);
         }
+    }
+
+    public void jumpButton()
+    {
+        rigidbody2D.velocity = Vector2.up * jumpSpeed;
     }
 }
