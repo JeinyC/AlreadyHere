@@ -10,12 +10,11 @@ public class Jugador : MonoBehaviour
     public float speed = 2f;
     public float maxSpeed = 5f;
     int saltosHechos;
+    int saltosButton;
     int limiteSaltos = 2;
     private float posicionAnterior = 0;
     bool derecha = true;
     public float jumpSpeed = 5;
-    //bool m_isGrounded;
-
 
 
     // Start is called before the first frame update
@@ -101,17 +100,23 @@ public class Jugador : MonoBehaviour
         if (collision.gameObject.tag == "Suelo")
         {
             saltosHechos = 0;
+            saltosButton = 0;
             animator.SetBool("estaSaltando", false);
         }
         if (collision.gameObject.tag == "CocheRojo")
         {
             saltosHechos = 0;
+            saltosButton = 0;
             animator.SetBool("estaSaltando", false);
         }
     }
 
     public void jumpButton()
     {
-        rigidbody2D.velocity = Vector2.up * jumpSpeed;
+        if (saltosButton < limiteSaltos)
+            {
+                rigidbody2D.velocity = Vector2.up * jumpSpeed;
+                saltosButton++;
+            }
     }
 }
