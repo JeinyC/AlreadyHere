@@ -9,6 +9,7 @@ TagManager:
   - Alien
   - Andamio
   - Plataforma
+  - Caja
   layers:
   - Default
   - TransparentFX
@@ -20,7 +21,7 @@ TagManager:
   - 
   - Player
   - Aliens
-  - 
+  - Caja
   - 
   - 
   - 
