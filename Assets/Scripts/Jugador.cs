@@ -108,6 +108,11 @@ public class Jugador : MonoBehaviour
             saltosHechos = 0;
             animator.SetBool("estaSaltando", false);
         }
+        if (collision.gameObject.tag == "Caja")
+        {
+            saltosHechos = 0;
+            animator.SetBool("estaSaltando", false);
+        }
     }
 
     public void jumpButton()

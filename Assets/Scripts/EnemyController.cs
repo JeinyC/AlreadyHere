@@ -13,7 +13,7 @@ public class EnemyController : MonoBehaviour
     }
 
     
-    private void FixedUpdate()
+    void FixedUpdate()
     {
         rigidbody2D.AddForce(Vector2.right * speed);
         float limitedSpeed = Mathf.Clamp(rigidbody2D.velocity.x, -maxSpeed, maxSpeed);
@@ -32,15 +32,21 @@ public class EnemyController : MonoBehaviour
         {
             transform.localScale = new Vector3(-1f, 1f, 1f);
         }
-        /*
-        void OnTriggerEnter2D(Collider2D col)
-        {
-            if ()
-            {
-
-            }
-        }
-        */
     }
 
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.gameObject.tag == "Caja")
+        {
+            if (transform.position.y < collision.transform.position.y)
+            {
+                Destroy(gameObject);
+            }
+        }
+
+        if (collision.gameObject.tag == "Player")
+        {
+            Debug.Log("Player detected!!");
+        }
+    }
 }
