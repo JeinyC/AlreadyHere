@@ -1,9 +1,12 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class Jugador : MonoBehaviour
 {
+    public int nextScene;
     public float fuerzaSalto;
     private new Rigidbody2D rigidbody2D;
     private Animator animator;
@@ -15,11 +18,15 @@ public class Jugador : MonoBehaviour
     private float posicionAnterior = 0;
     bool derecha = true;
     public float jumpSpeed = 5;
-
+    public float vidaActual2;
+    
 
     // Start is called before the first frame update
     void Start()
     {
+        PlayerPrefs.SetInt("escenaActual",SceneManager.GetActiveScene().buildIndex);
+        PlayerPrefs.SetFloat("salud", 1);
+        vidaActual2 = 1;
         animator = GetComponent<Animator>();
         rigidbody2D = GetComponent<Rigidbody2D>();
         //m_isGrounded=true;
@@ -41,6 +48,9 @@ public class Jugador : MonoBehaviour
 
 
         }
+        if(vidaActual2 <= 0.2f){
+                SceneManager.LoadScene("DeadMenu");
+            }
     }
 
 
@@ -95,7 +105,7 @@ public class Jugador : MonoBehaviour
 
 
     //Función para que cuando detecte el suelo no lo atraviese
-    private void OnCollisionEnter2D(Collision2D collision)
+    public void OnCollisionEnter2D(Collision2D collision)
     {
         if (collision.gameObject.tag == "Suelo")
         {
@@ -114,6 +124,15 @@ public class Jugador : MonoBehaviour
             saltosHechos = 0;
             animator.SetBool("estaSaltando", false);
         }
+        if (collision.gameObject.tag == "CocheRojo")
+        {
+            float salud1 = PlayerPrefs.GetFloat("salud");
+            vidaActual2 = salud1;    
+            vidaActual2 -= 0.2f;
+            PlayerPrefs.SetFloat("salud", vidaActual2);
+        }
+        
+        
     }
 
     public void jumpButton()

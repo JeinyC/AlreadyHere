@@ -8,7 +8,7 @@ public class SelctScene : MonoBehaviour
 
     void Start()
     {
-        int nivel = PlayerPrefs.GetInt("nivel",5);
+        int nivel = PlayerPrefs.GetInt("nivel",6);
 
         for (int i = 0; i < nivelBTN.Length; i++)
         {
