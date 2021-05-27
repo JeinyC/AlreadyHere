@@ -10,6 +10,7 @@ TagManager:
   - Andamio
   - Plataforma
   - Caja
+  - piedra
   layers:
   - Default
   - TransparentFX
