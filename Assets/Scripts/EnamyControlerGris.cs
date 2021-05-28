@@ -1,8 +1,9 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
-public class EnemyController : MonoBehaviour
+public class EnamyControlerGris : MonoBehaviour
 {
     public float speed = 1f;
     public float maxSpeed = 1f;
@@ -12,14 +13,14 @@ public class EnemyController : MonoBehaviour
         rigidbody2D = GetComponent<Rigidbody2D>();
     }
 
-    
+
     void FixedUpdate()
     {
         rigidbody2D.AddForce(Vector2.right * speed);
         float limitedSpeed = Mathf.Clamp(rigidbody2D.velocity.x, -maxSpeed, maxSpeed);
         rigidbody2D.velocity = new Vector2(limitedSpeed, rigidbody2D.velocity.y);
 
-        if(rigidbody2D.velocity.x > -0.01 && rigidbody2D.velocity.x < 0.01)
+        if (rigidbody2D.velocity.x > -0.01 && rigidbody2D.velocity.x < 0.01)
         {
             speed = -speed;
             rigidbody2D.velocity = new Vector2(speed, rigidbody2D.velocity.y);
@@ -28,7 +29,8 @@ public class EnemyController : MonoBehaviour
         if (speed > 0)
         {
             transform.localScale = new Vector3(1f, 1f, 1f);
-        }else if (speed < -0)
+        }
+        else if (speed < -0)
         {
             transform.localScale = new Vector3(-1f, 1f, 1f);
         }
@@ -38,7 +40,8 @@ public class EnemyController : MonoBehaviour
     {
         if (collision.gameObject.tag == "Caja")
         {
-            if (transform.position.y < collision.transform.position.y)
+            float yoffset = 1.4f;
+            if (transform.position.y + yoffset < collision.transform.position.y)
             {
                 Destroy(gameObject);
             }
@@ -46,7 +49,7 @@ public class EnemyController : MonoBehaviour
 
         if (collision.gameObject.tag == "Player")
         {
-            Debug.Log("Player detected!!");
+            SceneManager.LoadScene("DeadMenu");
         }
     }
 }

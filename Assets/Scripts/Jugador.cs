@@ -138,9 +138,9 @@ public class Jugador : MonoBehaviour
     public void jumpButton()
     {
         if (saltosButton < limiteSaltos)
-            {
-                rigidbody2D.velocity = Vector2.up * jumpSpeed;
-                saltosButton++;
-            }
+        {
+            rigidbody2D.velocity = Vector2.up * jumpSpeed;
+            saltosButton++;
+        }
     }
 }
