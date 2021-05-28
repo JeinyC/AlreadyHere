@@ -18,6 +18,7 @@ public class NextLevel : MonoBehaviour
         if(collision.gameObject.tag == "Player")
         {
             SceneManager.LoadScene(nextScene);
+            
 
             if(nextScene > PlayerPrefs.GetInt("nivel"))
             {
