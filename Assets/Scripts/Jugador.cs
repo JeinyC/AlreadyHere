@@ -124,11 +124,11 @@ public class Jugador : MonoBehaviour
             saltosHechos = 0;
             animator.SetBool("estaSaltando", false);
         }
-        if (collision.gameObject.tag == "AlienPeludo")
+        if (collision.gameObject.tag == "AlienMarron")
         {
             float salud1 = PlayerPrefs.GetFloat("salud");
             vidaActual2 = salud1;    
-            vidaActual2 -= 0.2f;
+            vidaActual2 -= 0.3f;
             PlayerPrefs.SetFloat("salud", vidaActual2);
         }
         
