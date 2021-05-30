@@ -6388,7 +6388,7 @@ Transform:
   m_GameObject: {fileID: 1504295792}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -0.8399, y: -0.164, z: 0}
-  m_LocalScale: {x: 0.19796622, y: 0.24607247, z: 0.24607247}
+  m_LocalScale: {x: 0.26230526, y: 0.24607247, z: 0.24607247}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 2
@@ -11767,6 +11767,7 @@ MonoBehaviour:
   nivelBTN:
   - {fileID: 50198950}
   - {fileID: 573885382}
+  nivelAcabado: 0
 --- !u!4 &2089713862
 Transform:
   m_ObjectHideFlags: 0
