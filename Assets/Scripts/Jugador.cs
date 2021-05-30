@@ -42,7 +42,9 @@ public class Jugador : MonoBehaviour
             if (saltosHechos < limiteSaltos)
             {
                 rigidbody2D.AddForce(new Vector2(0, fuerzaSalto));
-                animator.SetBool("estaSaltando", true);
+                if(SceneManager.GetActiveScene().buildIndex==6){
+                    animator.SetBool("estaSaltando", true);
+                }
                 saltosHechos++;
             }
 
@@ -111,18 +113,24 @@ public class Jugador : MonoBehaviour
         {
             saltosHechos = 0;
             saltosButton = 0;
-            animator.SetBool("estaSaltando", false);
+            if(SceneManager.GetActiveScene().buildIndex==6){
+                animator.SetBool("estaSaltando", false);
+            }
         }
         if (collision.gameObject.tag == "CocheRojo")
         {
             saltosHechos = 0;
             saltosButton = 0;
-            animator.SetBool("estaSaltando", false);
+            if(SceneManager.GetActiveScene().buildIndex==6){
+                animator.SetBool("estaSaltando", false);
+            }
         }
         if (collision.gameObject.tag == "Caja")
         {
             saltosHechos = 0;
-            animator.SetBool("estaSaltando", false);
+            if(SceneManager.GetActiveScene().buildIndex==6){
+                animator.SetBool("estaSaltando", false);
+            }
         }
         if (collision.gameObject.tag == "AlienMarron")
         {
@@ -139,6 +147,9 @@ public class Jugador : MonoBehaviour
     {
         if (saltosButton < limiteSaltos)
         {
+            if(SceneManager.GetActiveScene().buildIndex==6){
+                animator.SetBool("estaSaltando", true);
+            }
             rigidbody2D.velocity = Vector2.up * jumpSpeed;
             saltosButton++;
         }

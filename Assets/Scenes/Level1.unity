@@ -200,7 +200,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3419945}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -15.720042, y: 0, z: 0}
+  m_LocalPosition: {x: -16.680046, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1183669856}
@@ -728,7 +728,7 @@ Rigidbody2D:
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
-  m_Mass: 2
+  m_Mass: 4
   m_LinearDrag: 0
   m_AngularDrag: 0.05
   m_GravityScale: 1
@@ -1318,7 +1318,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 353887643}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -20.057753, y: 0, z: 0}
+  m_LocalPosition: {x: -26.681755, y: 0, z: 0}
   m_LocalScale: {x: 1.456, y: 1.7875, z: 1}
   m_Children:
   - {fileID: 250970639}
@@ -1362,7 +1362,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   nextScene: 0
-  fuerzaSalto: 250
+  fuerzaSalto: 360
   speed: 50
   maxSpeed: 4
   jumpSpeed: 5
@@ -1382,7 +1382,7 @@ Rigidbody2D:
   m_Mass: 1
   m_LinearDrag: 0
   m_AngularDrag: 0.05
-  m_GravityScale: 1
+  m_GravityScale: 2
   m_Material: {fileID: 0}
   m_Interpolate: 0
   m_SleepingMode: 1
@@ -2058,7 +2058,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 554443786}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -27.060009, y: 0, z: 0}
+  m_LocalPosition: {x: -17.94001, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 307114461}
@@ -3932,7 +3932,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1184382526}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -30.990013, y: 0, z: 0}
+  m_LocalPosition: {x: -17.310013, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1461202451}
@@ -4854,7 +4854,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1529463169}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -23.129984, y: 0, z: 0}
+  m_LocalPosition: {x: -18.569983, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 567029966}
@@ -5379,6 +5379,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nextScene: 6
   actualScene: 0
+  NivelAcabado: 0
 --- !u!1 &1599405616
 GameObject:
   m_ObjectHideFlags: 0
@@ -6103,7 +6104,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1630701758}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -41.489933, y: 0, z: 0}
+  m_LocalPosition: {x: -23.504326, y: 0, z: 0}
   m_LocalScale: {x: 1.456, y: 1.7875, z: 1}
   m_Children:
   - {fileID: 599980175}
@@ -6527,7 +6528,6 @@ GameObject:
   - component: {fileID: 1762129029}
   - component: {fileID: 1762129028}
   - component: {fileID: 1762129026}
-  - component: {fileID: 1762129025}
   - component: {fileID: 1762129024}
   - component: {fileID: 1762129027}
   m_Layer: 0
@@ -6551,18 +6551,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   target: {fileID: 455236980}
   speed: 1
---- !u!114 &1762129025
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1762129023}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f793a6e23ec05b5489dfdfbbd9968c37, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &1762129026
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6929,7 +6917,6 @@ GameObject:
   - component: {fileID: 2001819491}
   - component: {fileID: 2001819492}
   - component: {fileID: 2001819494}
-  - component: {fileID: 2001819496}
   - component: {fileID: 2001819495}
   - component: {fileID: 2001819493}
   m_Layer: 0
@@ -7059,18 +7046,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   target: {fileID: 129281813}
   speed: 1
---- !u!114 &2001819496
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2001819490}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f793a6e23ec05b5489dfdfbbd9968c37, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &2071913149
 GameObject:
   m_ObjectHideFlags: 0
