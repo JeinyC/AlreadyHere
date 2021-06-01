@@ -22,7 +22,7 @@ public class NextLevel : MonoBehaviour
         
         if(collision.gameObject.tag == "Player")
         {
-            if(actualScene==6){
+            if(actualScene==7){
                 SceneManager.LoadScene("SelectLevelTierra");
             }
            else

@@ -29,6 +29,7 @@ public class Menu : MonoBehaviour
             btnPause();
         }
     }
+    
 
 
     void btnResume()
