@@ -70,6 +70,7 @@ public class Dialog : MonoBehaviour
     }
 
     public void OnTriggerEnter2D(Collider2D collision){
+
         if(collision.gameObject.CompareTag("Player"))
         {
             botonLeer.SetActive(true);
@@ -83,6 +84,7 @@ public class Dialog : MonoBehaviour
 
     public void activarBotonLeer()
     {
+        botonLeer.SetActive(false);
         controles.SetActive(false);
         panelDialogo.SetActive(true);
         StartCoroutine(TextDialogo());

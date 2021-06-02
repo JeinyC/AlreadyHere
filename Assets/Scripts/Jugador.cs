@@ -124,6 +124,7 @@ public class Jugador : MonoBehaviour
             if(SceneManager.GetActiveScene().buildIndex==6){
                 animator.SetBool("estaSaltando", false);
             }
+            transform.parent = collision.transform;
         }
         if (collision.gameObject.tag == "Caja")
         {
@@ -138,6 +139,12 @@ public class Jugador : MonoBehaviour
             vidaActual2 = salud1;    
             vidaActual2 -= 0.3f;
             PlayerPrefs.SetFloat("salud", vidaActual2);
+        }
+        if (collision.gameObject.tag == "Plataforma")
+        {
+            saltosHechos = 0;
+            saltosButton = 0;
+            transform.parent = collision.transform;
         }
         
         
@@ -154,4 +161,13 @@ public class Jugador : MonoBehaviour
             saltosButton++;
         }
     }
+
+   
+
+    private void OnCollisionExit2D(Collision2D collision)
+    {
+        transform.parent = null ;
+    }
+
+    
 }
